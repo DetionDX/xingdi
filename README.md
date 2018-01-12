@@ -1,1 +1,1 @@
-# This is my personal website respority
+# this is my personal website repository
