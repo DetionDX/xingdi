@@ -1,92 +1,147 @@
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Created by: Xing Di from Hang Zhang: http://hangzh.com/
+ * ECE Department, Rutgers University
+ * Email: xing.di@rutgers.edu
+ * Copyright (c) 2018
+ *
+ * Free to reuse and distribute this software for research or 
+ * non-profit purpose, subject to the following conditions:
+ *  1. The code must retain the above copyright notice, this list of
+ *     conditions.
+ *  2. Original authors' names are not deleted.
+ *  3. The authors' names are not used to endorse or promote products
+ *      derived from this software 
+ *+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-  </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <meta name="author" content="Xing Di">
+    <title>Xing Di</title>
+
+    <meta name="description" content="Xing Di, Rutgers , Computer Vision">
+    <meta property="og:description" content="Xing Di, Rutgers , Computer Vision" />
+
+    <link rel="shortcut icon" href="./files/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./files/hangzh.css">
+    <link rel="stylesheet" href="./academicons/css/academicons.css">
+
+    <script type="text/javascript" src="./files/hidebib.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
+
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">XD</a>
+<div style="max-width: 900px; padding-top: 40px;" class="container">
+    <div id="about">
+        <h2><span class="fa fa-home"></span> About Me</h2> 
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Publication</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Code</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+        
+    <div>
+    <table width="100%" border="0" cellspacing="15" cellpadding="0">
+    <tbody>
+    <tr>
+        <td width="20%"><a href="files/about.jpg"><img src="files/about.jpg" width="160" border="1" class="first"></a></td>
+    <td>
+    <p> 
+        <b>Xing Di    (<span lang="zh-cn">底兴</span>)</b> is working with <a href="http://www.rci.rutgers.edu/~vmp93/">Prof. Vishal M. Patel</a> 
+        in <a href="http://www.rutgers.edu/">Rutgers, the State University of New Jersey</a>. 
+        Prior to joining Rutgers, he finished his M.E. and B.E. at Stevens Institute of Technology (2015) and University of Electronic Science and Technology of China (2013).<br>
+        <a href="mailto:removethisifyouarehuman~xing.di@rutgers.edu"><span style="font-size:24px" class="fa fa-envelope-square" aria-hidden="true"></span></a>
+        <a href="https://www.linkedin.com/in/xing-di-rutgers/"><span style="font-size:24px" class="fa fa-linkedin-square" aria-hidden="true"></span></a> 
+        <a href="https://github.com/DetionDX"><span style="font-size:24px" class="fa fa-github-square" aria-hidden="true"></span></a> 
+        <a href="https://scholar.google.com/citations?user=C-gwsfwAAAAJ&hl=en"><span style="font-size:24px" class="ai ai-google-scholar-square ai-3x"></span></a>
+    </p>
+    </td>
+    </tr>
+    </tbody>
+    </table>
     </div>
-  </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Publication</a></p>
-      <p><a href="#">Projects</a></p>
-      <p><a href="#">Code</a></p>
-    </div>
-    <div class="col-sm-8 text-left"> 
-      <h1>Introduce</h1>
-      <p>Xing Di (底兴) is a Ph.D. student working with Prof. Vishal M. Patel in Rutgers, the State University of New Jersey. His interest includes the pattern recognition, image processing, and machine learning (deep learning) algorithm in biometric application. Before joining Rutgers, He graduated from Stevens and UESTC. </p>
-      <hr>
-      <h3>News</h3>
-      <p>01/12/2018: Our work "Face Synthesis from Visual Attributes via Sketch using Conditional VAEs and GANs"</p>
-    </div>
-    <div class="col-sm-2 sidenav">
-    </div>
-  </div>
-</div>
 
+    <!-- News -->
+    <div class="news" style="overflow:auto; height:105px; padding-top: 20px;">
+    <ul>
+      	<li><b><span>New! </span></b>[June, 2018] Our work "Polarimetric Thermal to Visible Face Verification via Attribute Preserved Synthesis" was accepted by BTAS 2018.
+        </li>
+        <li><b><span>New! </span></b>[May, 2018] Our work <a href="https://arxiv.org/abs/1710.00962">"GP-GAN: Gender Preserving GAN for Synthesizing Faces from Landmarks"</a> was accepted by ICPR 2018.
+        </li>
+        
 
+    </ul>
+    </div>
+
+    <!-- Selected Publications -->     
+    <div>
+    <a id="Selected publication"></a>
+    <h2><span class="fa fa-book"></span> Publications</h2>
+    </div>
+    <div><table class="tp"><tbody>
+    <!-- paper BTAS 2018 -->
+    <tr>
+    <td width="33%" valign="top">
+        <a href="figure/cvpr18.jpg"><img src="figure/cvpr18.jpg" alt="zhang18" style="width:260px;height:110px;border-style: none"></a>
+    </td>
+    <td valign="top" style="padding-top: 10px;">
+    <p>
+        <heading>Polarimetric Thermal to Visible Face Verification via Attribute Preserved Synthesis</heading><br>
+        <b>Xing Di</b>, 
+        <a href="http://www.rci.rutgers.edu/~vmp93/">Vishal M. Patel</a><br>
+        <em>9th IEEE International Conference on Biometrics: Theory, Applications, and Systems <br>
+            (<b>BTAS</b>)</em>, 2018 <br>
+    </td>
+    </tr>
+    <!-- paper ICPR 2018 -->
+    <tr>
+    <td width="33%" valign="top">
+        <a href="figure/cvpr18.jpg"><img src="figure/cvpr18.jpg" alt="zhang18" style="width:260px;height:110px;border-style: none"></a>
+    </td>
+    <td valign="top" style="padding-top: 10px;">
+    <p>
+        <heading>GP-GAN: Gender Preserving GAN for Synthesizing Faces from Landmarks</heading><br>
+        <b>Xing Di</b>, 
+        <a href="http://www.rci.rutgers.edu/~vmp93/">Vishal M. Patel</a><br>
+        <em>24th International Conference on Pattern Recognition<br>
+            (<b>ICPR</b>)</em>, 2018 <br>
+    </td>
+    </tr>
+    
+    <!-- paper FG 2017 -->
+    <tr>
+    <td width="33%" valign="top">
+        <a href="figure/cvpr18.jpg"><img src="figure/cvpr18.jpg" alt="zhang18" style="width:260px;height:110px;border-style: none"></a>
+    </td>
+    <td valign="top" style="padding-top: 10px;">
+    <p>
+        <heading>Large Margin Multi-Modal Triplet Metric Learning</heading><br>
+        <b>Xing Di</b>, 
+        <a href="http://www.rci.rutgers.edu/~vmp93/">Vishal M. Patel</a><br>
+        <em>12th IEEE International Conference on Automatic Face and Gesture Recognition<br>
+            (<b>FG</b>)</em>, 2017 <br>
+    </td>
+    </tr>
+
+    <!-- paper FG 2017 -->
+    <tr>
+    <td width="33%" valign="top">
+        <a href="figure/cvpr18.jpg"><img src="figure/cvpr18.jpg" alt="zhang18" style="width:260px;height:110px;border-style: none"></a>
+    </td>
+    <td valign="top" style="padding-top: 10px;">
+    <p>
+        <heading>Deep Tattoo Recognition</heading><br>
+        <b>Xing Di</b>, 
+        <a href="http://www.rci.rutgers.edu/~vmp93/">Vishal M. Patel</a><br>
+        <em>IEEE Conference on Computer Vision and Pattern Recognition Workshops<br>
+            (<b>CVPRW</b>)</em>, 2016 <br>
+    </td>
+    </tr>
+    
 </body>
 </html>
-
